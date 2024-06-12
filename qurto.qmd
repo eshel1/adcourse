@@ -1,0 +1,84 @@
+---
+title: "quarto_exe"
+format: html
+editor: visual
+---
+
+# part1
+
+## question1:
+
+B. To specify the document’s format.
+
+## question2:
+
+A. To indicate what has ssschanged in a commit.
+
+## question3
+
+C. Excel.
+
+# Part 2
+
+## Question 1
+
+**2**
+```{r,eval=FALSE}
+mkdir ANS1
+
+```
+
+
+
+**3**
+
+```{r,eval=FALSE}
+touch ShippingData.csv
+
+cp ShippingData.csv ~/ANS1/ShippingData.csv
+
+```
+
+**4**
+```{r,eval=FALSE}
+
+mv ~/ANS1/ShippingData.csv ~/ANS1/Dataframe1.csv
+```
+**5**
+```{r,eval=FALSE}
+
+mkdir Report_directory
+rmdir Report_directory
+```
+## Question 2
+
+**1**
+
+```{r,eval=FALSE}
+
+-n 3 ~/ANS1/Dataframe1.csv
+```
+**2**
+```{r,eval=FALSE}
+
+grep -n 5 ~/ANS1/Dataframe1.csv **500**
+```
+
+## question3
+**1**
+```{r,eval=FALSE}
+grep -c Bananas ~/ANS1/Dataframe1.csv *15*
+grep -c Guitar  ~/ANS1/Dataframe1.csv *86*
+```
+
+**2**
+
+```{r,eval=FALSE}
+ grep Microwave  ~/ANS1/Dataframe1.csv
+
+
+```
+
+
+
+
